@@ -1,0 +1,41 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 144px;
+    /* margin-left: 114px; */
+    align-items: center;
+}
+
+.menu-items {
+  display: flex;
+  gap:40px;
+  list-style-type:none;
+  padding: 0px 20px;
+}
+
+.brandName{
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.24px;
+    color: #a1a1a1;
+    font-weight: bold;
+}
+.buttonDiv{
+    display: flex;
+    gap: 20px;
+}
+.buttonDiv button{
+    background: #FF5733;
+    border-radius: 6px;
+    width: 108.47px;
+    height: 40;
+    color: #FFFF;
+    opacity: 100%;
+    border: 1px solid;
+    border-color:#FF5733;
+
+}
+.buttonDiv a{
+    color:black;
+    text-decoration: none;
+}
